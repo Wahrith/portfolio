@@ -1,0 +1,177 @@
+.about-container {
+    margin: 50px 30px 120px;
+    padding-top: 90px;
+    position: relative;
+}
+
+.about-container h4 {
+    margin-bottom: 50px;
+    text-align: left;
+    opacity: 0.3;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.about-container h1 {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about-container p {
+   text-align: left;
+    font-size: 16px;
+    font-weight: lighter;
+    color: #ADADAD;
+    line-height: 1.8;
+    margin: 20px 10px;
+}
+
+.about-container p:last-of-type {
+    margin-bottom: 0;
+    
+}
+
+.profile-icon {
+    color: rgb(114, 114, 114);
+    font-size: 300px;
+    z-index: -20;
+    opacity: 0.1;
+    position: absolute;
+    left: -150px;
+    top: 0;
+    
+}
+
+.skills-container {
+    position: relative;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills-container h3 {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #E5E5E5;
+}
+
+hr {
+    width: 30%;
+    height: 2px;
+    margin: 15px auto 20px;
+}
+
+.skill-cogs {
+    color: rgb(114, 114, 114);
+    font-size: 300px;
+    z-index: -20;
+    opacity: 0.1;
+    position: absolute;
+    right: 0px;
+    top: -50px;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.skills span {
+    background-color: #8f8f8f25;
+    border-radius: 8px;
+    margin: 20px 10px;
+    padding: 10px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+#react {
+    background-color: #a3299d4f;
+}
+
+#framer {
+    background-color: #5C29A34f;
+} 
+
+#git {
+    background-color: #2969A34f;       
+}
+
+#tailwind {
+    background-color: #A329764f; 
+}
+
+#css {
+    background-color: #29A3904f;
+}
+
+#js {
+    background-color: #60a3294f;
+}
+
+#html {
+    background-color: #8329A34f;
+}
+
+#redux {
+    background-color: rgba(236, 134, 0, 0.247);
+}
+
+#github {
+    background-color: rgba(128, 255, 0, 0.185);
+}
+
+#mui {
+    background-color: rgba(238, 10, 48, 0.247);
+}
+
+#seo {
+    background-color: rgba(147, 10, 238, 0.247);
+}
+
+.icons-container {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    justify-items: center;
+    gap: 30px;
+}
+
+.icon {
+    width: 50px;
+    height: auto;
+    margin: 15px 30px 10px;
+    opacity: 0.8;
+    transition: 0.4s ease-in-out;
+}
+
+.icon {
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+@media screen and (min-width: 620px) {
+    .about-container {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    .about-container h1 {
+        font-size: 45px;
+    }
+
+    .about-container p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .about-container {
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+}

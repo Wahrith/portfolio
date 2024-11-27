@@ -1,0 +1,123 @@
+.projects-container {
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-top: 120px;
+  position: relative;
+  text-align: center;
+}
+
+.project-icon {
+  color: rgb(114, 114, 114);
+    font-size: 300px;
+  z-index: -20;
+  opacity: 0.1;
+  position: absolute;
+  left: -150px;
+  top: 0;
+}
+
+.projects-container h4 {
+    margin-bottom: 50px;
+    text-align: left;
+    opacity: 0.3;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.projects-container h2 {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.projects-about {
+  font-size: 16px;
+  font-weight: lighter;
+  color: #ADADAD;
+  line-height: 1.8;
+  margin: 30px 10px 50px;
+}
+
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+  grid-gap: 50px;
+}
+
+.project-card {
+  border: 2px solid rgb(31, 31, 31);
+  border-radius: 10px;
+  box-shadow: 0px 1px 1px 0.5px rgb(31, 31, 31);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+  margin: 10px;
+  overflow: hidden;
+  background-color: #1E1E1E;
+}
+
+.project-card strong {
+  font-size: 20px;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  margin-top: 20px;
+  color: #e5e5e5;
+}
+
+.project-card p {
+  margin: 30px 50px 20px;
+  text-align: center;
+  color: #ADADAD;
+  line-height: 1.4;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+}
+
+.project-anchors {
+  margin: 20px 40px 40px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.project-anchors a {
+  margin: 0 20px;
+  text-decoration: none;
+  background-color: #1E1E1E;
+  border-radius: 5px;
+  color: #e5e5e5;
+  padding: 5px 20px 8px;
+  transition: all 0.3s;
+  font-size: 25px;
+  border-radius: 40px;
+}
+
+.project-anchors a:hover {
+  background-color: #adadad25;
+}
+
+@media screen and (min-width: 620px) {
+  .projects-container {
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+  .projects-container h2 {
+    font-size: 45px;
+  }
+  .projects-about {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .projects-container {
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+
+}
